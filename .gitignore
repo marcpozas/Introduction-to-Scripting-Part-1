@@ -25,6 +25,12 @@
 
 # Visual Studio cache directory
 .vs/
+*.vsconfig
+
+# System-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
 
 # Gradle cache directory
 .gradle/
