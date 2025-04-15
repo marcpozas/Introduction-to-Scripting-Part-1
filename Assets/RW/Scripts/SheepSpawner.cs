@@ -42,7 +42,7 @@ public class SheepSpawner : MonoBehaviour
     {
         GameObject prefabToUse = sheepPrefab;
         // 10% probability that the ice sheep appears
-        if (Random.value < 0.5f)
+        if (Random.value < 0.1f)
         {
             prefabToUse = blueSheepPrefab;
         }
